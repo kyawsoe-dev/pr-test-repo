@@ -4,29 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PR Test</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2rem;
-      background-color: #f9f9f9;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      font-size: 1.1rem;
-      color: #555;
-    }
-    button {
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-  </style>
+  <script type="module">
+    import { clickHandler } from "dom.js";
+    window.handleClick = () => alert(clickHandler());
+  </script>
 </head>
 <body>
   <h1>Hello, this is a test PR.</h1>
   <p>This page is for testing the PR Auto Review workflow.</p>
-  <button onclick="alert('PR Test Clicked!')">Click Me</button>
+  <button onclick="handleClick()">Click Me</button>
 </body>
 </html>
