@@ -1,4 +1,4 @@
-# PR Test Repo
+# Pull Request Test Repo
 
 This repository is for testing **PR Auto Review**.
 
