@@ -2,7 +2,7 @@
 
 This repository is for testing **PR Auto Review**.
 
-## Steps
+## Steps 
 
 1. Create a new branch.
 2. Edit `dom.js` or add files.
