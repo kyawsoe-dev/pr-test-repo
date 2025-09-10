@@ -10,6 +10,12 @@ export function minutes(a, b) {
   return a - b;
 }
 
+
+export function multiple(a, b) {
+  return a * b;
+}
+
+
 export function clickHandler() {
   return "PR Test Clicked!";
 }
