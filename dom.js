@@ -6,6 +6,11 @@ export function add(a, b) {
   return a + b;
 }
 
+export function minutes(a, b) {
+  return a - b;
+}
+
+
 export function clickHandler() {
   return "PR Test Clicked!";
 }
