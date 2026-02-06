@@ -16,6 +16,14 @@ export function multiple(a, b) {
 }
 
 
+export function divide(a, b) {
+  return a / b;
+}
+
+
+
+
+
 export function clickHandler() {
   return "PR Test Clicked!";
 }
